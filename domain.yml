@@ -1,0 +1,37 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: Này! Bạn khỏe chứ?
+  - text: Bạn còn làm ở đó hong ta <3
+  - text: Dạo này bạn sao rồi?
+  - text: Bạn cần tui giúp gì nè ^^
+
+  utter_cheer_up:
+  - text: 'Một chút đáng yêu:'
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: Cái này có giúp bạn không ta?
+
+  utter_happy:
+  - text: Tuyệt! Tôi thích nghe điều đó
+
+  utter_goodbye:
+  - text: Tạm biệt bạn
+
+  utter_iamabot:
+  - text: "I am a bot của Vương đẹp trai."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

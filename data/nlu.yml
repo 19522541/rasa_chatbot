@@ -1,0 +1,80 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - chào
+    - chao
+    - xin chao
+    - xin chào
+    - hi
+    - hello 
+    - alo
+    - hey
+    - hêy
+    - yo
+    - zo
+    - e
+    - ê
+
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - hẹn gặp lại
+    - gặp lại sau
+    - lúc khác gặp lại
+
+
+- intent: affirm
+  examples: |
+    - vâng
+    - được rồi
+    - tất nhiên
+    - nghe hay đó
+    - chính xác
+    - ok
+    - okay
+
+- intent: deny
+  examples: |
+    - hong
+    - không á
+    - không nhé
+    - không bao giờ
+    - tôi không nghĩ vậy
+    - đừng như vậy chứ
+    - không đời nào
+    - hoàn toàn không
+
+- intent: mood_great
+  examples: |
+    - tuyệt vời
+    - rất tốt
+    - tuyệt
+    - đáng kinh ngạc
+    - hoàn hảo
+    - tôi cảm thấy rất tuyệt
+    - tôi rất khỏe
+    - tôi rất tốt
+
+- intent: mood_unhappy
+  examples: |
+    - buồn ghê
+    - quá buồn
+    - quá chán
+    - tệ
+    - rất tệ
+    - tồi tệ
+    - kinh khủng
+    - không ổn lắm
+    - cực kỳ chán
+    - cực kỳ buồn
+    - tôi buồn
+    - huhu
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
